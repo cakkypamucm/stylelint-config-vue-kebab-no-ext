@@ -1,0 +1,25 @@
+{
+    "name": "stylelint-config-vue-kebab-no-ext-cakkypamucm",
+    "version": "1.0.0",
+    "private": true,
+    "author": "Denis S. <cakkypamucm@yandex.ru>",
+    "main": "index.js",
+    "scripts": {
+        "prettier": "prettier --cache --cache-location .prettiercache --find-config-path --write \"*.{js,json,md}\" \"!(package)*.json\"",
+        "lint": "run-s prettier"
+    },
+    "peerDependencies": {
+        "stylelint": "^16.11.0"
+    },
+    "devDependencies": {
+        "npm-run-all": "^4.1.5",
+        "prettier": "^2.8.7"
+    },
+    "dependencies": {
+        "stylelint-no-unsupported-browser-features": "^8.0.2",
+        "stylelint-config-vue-cakkypamucm": "github:cakkypamucm/stylelint-config-vue"
+    },
+    "engines": {
+        "node": ">=18.18"
+    }
+}
